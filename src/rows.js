@@ -1,4 +1,5 @@
 function Row ({info}) {
+    //console.log(info);
     const newDataArray = info.map((purchase, index) => {
         return (
             <tr key={index+1}>
